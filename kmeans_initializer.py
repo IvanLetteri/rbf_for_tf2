@@ -9,7 +9,7 @@ class InitCentersKMeans(Initializer):
         X: matrix, dataset
     """
 
-    def __init__(self, X, max_iter=100):
+    def __init__(self, X, max_iter=10):
         self.X = X
         self.max_iter = max_iter
         super().__init__()
